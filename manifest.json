@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-05-04T16:52:02.344Z",
+  "license": "CC-BY-SA-4.0",
+  "scope": "BY-SA-derived enrichment only (translations, refinements, quizifications). Source originals available at upstream; see README.",
+  "totalRecords": 481654,
+  "sources": [
+    {
+      "source": "opentdb",
+      "sourceLicense": "CC-BY-SA-4.0",
+      "attribution": "Open Trivia Database (PixelTail Games)",
+      "sourceUrl": "https://opentdb.com",
+      "files": [
+        {
+          "name": "opentdb__translations-pl.jsonl.gz",
+          "modification": "translation",
+          "language": "pl",
+          "recordCount": 5146,
+          "sizeBytes": 452330,
+          "sha256": "a240888da9403ebd29bbba79b2492ed0ab4ed82e5fea8fb865daa9f3b1d2891e"
+        }
+      ]
+    },
+    {
+      "source": "opentriviaqa",
+      "sourceLicense": "CC-BY-SA-4.0",
+      "attribution": "OpenTriviaQA (uberspot)",
+      "sourceUrl": "https://github.com/uberspot/OpenTriviaQA",
+      "files": [
+        {
+          "name": "opentriviaqa__translations-pl.jsonl.gz",
+          "modification": "translation",
+          "language": "pl",
+          "recordCount": 48853,
+          "sizeBytes": 4806865,
+          "sha256": "3ee9a879e1eaca97fc2a362b3b11cba41e783ce94cda5dce4295860e1f8cca4b"
+        },
+        {
+          "name": "opentriviaqa__refinements-en.jsonl.gz",
+          "modification": "refinement",
+          "language": "en",
+          "recordCount": 48862,
+          "sizeBytes": 5669950,
+          "sha256": "8a4375f47b891657ab82a68513e5af7fe4235499a427095f77c7136609d8c603"
+        }
+      ]
+    },
+    {
+      "source": "arc",
+      "sourceLicense": "CC-BY-SA-4.0",
+      "attribution": "AI2 Reasoning Challenge (ARC), Allen Institute for AI",
+      "sourceUrl": "https://allenai.org/data/arc",
+      "files": [
+        {
+          "name": "arc__translations-pl.jsonl.gz",
+          "modification": "translation",
+          "language": "pl",
+          "recordCount": 7787,
+          "sizeBytes": 857728,
+          "sha256": "e8a49582236abf0305f111329f882ec89c692b084b4226067d5610d621713dad"
+        }
+      ]
+    },
+    {
+      "source": "kqa-pro",
+      "sourceLicense": "CC-BY-SA-4.0",
+      "attribution": "KQA Pro (Cao et al. 2022)",
+      "sourceUrl": "https://github.com/shijx12/KQAPro_Baselines",
+      "files": [
+        {
+          "name": "kqa-pro__translations-pl.jsonl.gz",
+          "modification": "translation",
+          "language": "pl",
+          "recordCount": 95692,
+          "sizeBytes": 9511429,
+          "sha256": "9d6371f3a7a2272a44571efcc33451942a29c1eeee355d680f536fe19483207e"
+        },
+        {
+          "name": "kqa-pro__refinements-en.jsonl.gz",
+          "modification": "refinement",
+          "language": "en",
+          "recordCount": 95735,
+          "sizeBytes": 15004974,
+          "sha256": "a8b15897e5be7cfb02a3677aae99d42745617064006352b229bf6b45aa079fdd"
+        }
+      ]
+    },
+    {
+      "source": "nq-open",
+      "sourceLicense": "CC-BY-SA-3.0",
+      "attribution": "Natural Questions Open (Lee et al. 2019, Google Research)",
+      "sourceUrl": "https://github.com/google-research-datasets/natural-questions",
+      "files": [
+        {
+          "name": "nq-open__translations-pl.jsonl.gz",
+          "modification": "translation",
+          "language": "pl",
+          "recordCount": 86656,
+          "sizeBytes": 8664126,
+          "sha256": "cd07d680156b8503e7407be20e757a095a18bbe45ac406ac8aee13a419d42fcd"
+        },
+        {
+          "name": "nq-open__quizified.jsonl.gz",
+          "modification": "quizification",
+          "language": "en",
+          "recordCount": 86661,
+          "sizeBytes": 9116370,
+          "sha256": "f26b15cbf70ac89475727c9b743f4e5dc65ac5bbe8a108055f5a4a9b993c2bfd"
+        }
+      ]
+    },
+    {
+      "source": "mkqa",
+      "sourceLicense": "CC-BY-SA-3.0",
+      "attribution": "MKQA: Multilingual Knowledge Questions and Answers (Apple ML Research)",
+      "sourceUrl": "https://github.com/apple/ml-mkqa",
+      "files": [
+        {
+          "name": "mkqa__quizified.jsonl.gz",
+          "modification": "quizification",
+          "language": "en",
+          "recordCount": 6262,
+          "sizeBytes": 544875,
+          "sha256": "7710ff3589f13773a8aa0c3905bf93260a10fb85486b3940087e6b541cda6052"
+        }
+      ]
+    }
+  ]
+}
